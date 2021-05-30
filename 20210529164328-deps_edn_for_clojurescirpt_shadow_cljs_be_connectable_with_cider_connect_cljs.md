@@ -50,7 +50,7 @@ Then the deps.edn must have dependencies required for cider to connect to the RE
 
 For each alias for a main program (here &rsquo;serve&rsquo;), those dependencies must be added.
 
-This note of observation is done and confirmed on May 29, 2021. The duration of the validity might be limited.
+This note of observation is confirmed on May 29, 2021. The duration of the validity might be limited.
 
 <a id="orgca5c158"></a>
 
