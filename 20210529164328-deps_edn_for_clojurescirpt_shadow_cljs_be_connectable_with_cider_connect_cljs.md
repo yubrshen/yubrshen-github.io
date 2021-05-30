@@ -70,7 +70,7 @@ it has alluded to the idea, but it&rsquo;s not clear for beginner, and the confi
                  :main-opts ["-m" "nrepl.cmdline" "--middleware"
                              "[cider.nrepl/cider-middleware,cider.piggieback/wrap-cljs-repl]"]}
 
-I figured the solution bBased on my experiment, and hint from [nREPL](https://shadow-cljs.github.io/docs/UsersGuide.html#nREPL) of Shadow-cljs server:
+I figured the solution based on my experiment, and hint from [nREPL](https://shadow-cljs.github.io/docs/UsersGuide.html#nREPL) of Shadow-cljs server:
 
     If the popular middleware cider-nrepl is found on the classpath (e.g. it’s included in :dependencies), it will be used automatically. No additional configuration required.
 
@@ -83,7 +83,7 @@ Shadow-cljs is meant to support ClojureScript compilation, maybe, there is no ne
 
 # Limitation
 
-The above deps.edn does not work yet for a REPL to be started within emacs by M-x cider-jack-in-cljs
+The above deps.edn may not work yet for a REPL to be started within emacs by M-x cider-jack-in-cljs
 
 I wish any expert can shed more light on more understanding of the rationals of the proper configuration for ClojureScript with Shadow-cljs to work with cider/emacs.
 There are many documentations on Shadow-cljs/cider, but they are scattered, maybe outdated, and not accessible to beginners.
