@@ -8,6 +8,7 @@ I hope that it helps a hurry user of evil-surround with the receipts to execute 
 # How to change enclosing brackets?
 
 Based on [Change surrounding](https://github.com/emacs-evil/evil-surround#change-surrounding), here is the steps:
+
 In the following instruction, '|' indicates the position of the editing cursor.
 Supposed one wants to change '[' and ']' to '{' and '}' in "[ "some text"]"
 1. Put the cursor _inside_ the brackets to be changed, for example, [| "some text"] for changing '[' and ']'
