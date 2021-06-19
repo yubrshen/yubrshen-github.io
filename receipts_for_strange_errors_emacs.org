@@ -1,0 +1,17 @@
+#+title: Receipts_for_strange_errors_emacs
+#+author: Yu Shen
+#+date: 2021-06-18
+
+* Introduction
+
+These are notes of fixing strange errors of emacs:
+
+* Error of "pdf-info-check-epdfinfo: pdf-info-epdfinfo-program is not executable"
+
+Sometimes, when performing tangle code block in org-mode, this error may appear, causing
+failure to tangle.
+
+It turned out that it's caused by PDF-tools has not yet been installed, after a new Doom/emacs installation or significant upgrade.
+Performing M-x pdf-tools-install then the subsequent tangle operation will succeed.
+
+It's not obvicious how the PDF-tools is related code tangle, but it's indeed.
