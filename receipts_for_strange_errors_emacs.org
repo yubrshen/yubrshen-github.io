@@ -14,4 +14,4 @@ failure to tangle.
 It turned out that it's caused by PDF-tools has not yet been installed, after a new Doom/emacs installation or significant upgrade.
 Performing M-x pdf-tools-install then the subsequent tangle operation will succeed.
 
-It's not obvicious how the PDF-tools is related code tangle, but it's indeed.
+It's not obvious how the PDF-tools is related code tangle, but it's indeed.
